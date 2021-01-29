@@ -32,8 +32,10 @@ On the gallery page I will include some images of the garage and some helpful ti
 
 ### Skeleton
 
-- [Desktop Wireframes](https://github.com/M-E-C-20/)
-- [Mobile Wireframes](https://github.com/M-E-C-20/)
+- [Home Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-home.pdf)
+- [Quiz Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-quiz.pdf)
+- [Activities Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-activities.pdf)
+- [Write to Santa Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-santa.pdf)
 
 ### Surface
 
