@@ -1,45 +1,197 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Pearson's Bridge Motors
 
-Welcome USER_NAME,
+![Responsive](https://github.com/M-E-C-20/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This is my website which will be used to advertise a small local garage.
+It should feature the services offered and a price guide, an about page, a gallery and a contact page.
+the primary goal is to intice customers to make contact with the garage via the contact page.
 
-## Gitpod Reminders
+To do this I will need to make a comprehensive guide of services are available and use the price guide to give the customer confidence in what they are spending they're money on.
+To bolster this confidence, I will include an about page and a gallery.
+On the gallery page I will include some images of the garage and some helpful tips for self maintenance for the customer.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+[Live Website](https://m-e-c-20.github.io/)
 
-`python3 -m http.server`
+## UX
 
-A blue button should appear to click: *Make Public*,
+### User Stories
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+### Strategy
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+### Scope
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Structure
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Skeleton
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- [Desktop Wireframes](https://github.com/M-E-C-20/)
+- [Mobile Wireframes](https://github.com/M-E-C-20/)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Surface
 
---------
+#### Colours
 
-Happy coding!
+
+### Fonts
+
+
+
+### Icons
+
+I used the hamburger icon for my menu because it is widely recognised and used.
+
+
+## Features
+
+### Existing Features
+
+- Navbar - allows the user to navigate the site using the listed buttons. The company name/logo also acts as a home button.
+
+
+### Features to be Implemented
+
+
+
+## Technologies Used
+
+- [Balsamiq Wireframes](https://balsamiq.com/wireframes/?gclid=Cj0KCQiAhs79BRD0ARIsAC6XpaVYvwCWIORZNFLa4ZbfPQf8gAchZhdlP10mZeYDFooTFk1sW1Pua4caAgsmEALw_wcB)
+  - The project uses Balsamiq Wireframes for desktop to generate wireframes for the website.
+- [Gitpod](https://www.gitpod.io/)
+  - I used Gitpod to write my code for this project.
+- [Git](https://git-scm.com/)
+  - The project uses Git to update records to any changes to files.
+- [GitHub](https://github.com/)
+  - The project uses Github as a hosting service for version control.
+- [GitHub Pages](https://pages.github.com/)
+  - The project uses GitHub Pages to host the website.
+- [Bootstrap](https://getbootstrap.com/)
+  - The project uses Bootstrap heavily to help build the site.
+- [Google Fonts](https://fonts.google.com/)
+  - The project uses Google Fonts to style the fonts on the website.
+- [Font Awesome](https://fontawesome.com/)
+  - The project uses Font Awesome to add to my navigation buttons.
+- [Pexels](https://www.pexels.com/)
+  - Many of the photos used in this project came from this website.
+- [CSS Lint](http://csslint.net/)
+  - The project uses CSS Lint as an extra testing step after initially manual checks.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+  - The project uses this to test CSS by direct input.
+- [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
+  - The project uses this to pinpoint errors in HTML markup.
+- [ResizeImage.net](https://resizeimage.net/)
+  - The project uses ResizeImage.net to resize the images used on the site.
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+  - The project uses Chrome DevTools to analyse performance, accessibility, and best practices.
+
+## Testing
+
+1. ### Fixed Issues:
+
+   
+
+2. ### CSS:
+
+
+
+3. ### HTML:
+
+   1. #### Home:
+
+   
+
+   2. #### About:
+
+   
+
+   3. #### Gallery:
+
+   
+
+   4. #### Contact:
+
+   
+
+4. ### [Chrome DevTools:](https://developers.google.com/web/tools/chrome-devtools)
+
+   
+
+     [Link to pdf of results](https://github.com/M-E-C-20/)
+
+5. ### [Color Contrast Accessibility Validator](https://color.a11y.com/?wc3)
+
+   
+
+6. ### [Web Accessibility](https://www.webaccessibility.com/results/?url=https%3A%2F%2Fm-e-c-20.github.io%2FPB-Motors%2Fgallery.html)
+
+   
+
+7. ### Website Functionality
+
+   
+
+   4. #### Home
+
+   
+
+   Home page screenshots:
+
+   - [desktop](https://github.com/M-E-C-20/)
+   - [mobile](https://github.com/M-E-C-20/)
+
+   2. #### Quiz
+
+   
+
+   Quiz page screenshots:
+
+   - [desktop](https://github.com/M-E-C-20/)
+   - [mobile](https://github.com/M-E-C-20/)
+
+   3. #### Activities
+
+   
+
+   Activities page screenshots:
+
+   - [desktop](https://github.com/M-E-C-20/)
+   - [mobile](https://github.com/M-E-C-20/)
+
+   4. #### Letter to Santa
+
+   
+
+   Letter to Santa page screenshots:
+
+   - [desktop](https://github.com/M-E-C-20/)
+   - [mobile](https://github.com/M-E-C-20/)
+
+## Deployment
+
+This project was developed in Gitpod, controlled using Git, and hosted using GitHub. The live webpage is hosted by GitHub Pages.
+To deploy MS2 using GitHub pages the following steps were taken:
+
+
+
+To run MS2 locally the following steps must be taken:
+
+
+
+\$ git clone 
+
+## Credits
+
+### Media
+
+
+
+### Acknowledgements
+
+- I used the [Code Institute](https://github.com/Code-Institute-Solutions/readme-template) README template as a base for my own.
