@@ -1,0 +1,12 @@
+.text {
+    font-family: 'Mountains of Christmas', sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    background-color: #B82834;
+    color: #e9ecef;
+}
+
+section {
+    background: url(../images/pexels-jill-wellington-3334473.jpg) no-repeat;
+    background-size: 100vh;
+}
