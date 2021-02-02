@@ -1,7 +1,24 @@
-.text-color a {
-    color: aliceblue;
+/*--------------------- Navbar */
+.logo {
+    color: white;
 }
 
+.nav-link {
+    font-family: 'Mountains of Christmas';
+    font-size: x-large;
+    color: white;
+}
+
+.fa, .fas {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    font-size: xx-large;
+}
+
+/*--------------------- Section */
 .bg-image {
     background: url(../images/pexels-elly-fairytale-3811051.jpg) no-repeat bottom center fixed;
     background-size: cover;
@@ -14,4 +31,25 @@
 .bg-color {
     background-color: rgba(0, 0, 0, 0.8);
     height: 100vh;
+}
+
+h1 {
+    font-family: 'Mountains of Christmas', sans-serif;
+    color: white;
+    background-color: green;
+}
+
+/*--- Google Maps API */
+.map-cont {
+    height: 50vh;
+    width: 100%;
+}
+
+#map {
+    height: 100%;
+}
+
+/*--------------------- Footer */
+.color-white {
+    color: white;
 }
