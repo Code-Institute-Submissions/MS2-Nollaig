@@ -53,6 +53,11 @@ h1 {
 .card {
     background-color: transparent;
     color: white;
+    font-family: 'Lora', sans-serif;
+}
+
+.card-title {
+    text-decoration: underline;
 }
 
 /*--- Google Maps API */
