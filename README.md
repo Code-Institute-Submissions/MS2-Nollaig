@@ -16,19 +16,33 @@ On the gallery page I will include some images of the garage and some helpful ti
 
 ### User Stories
 
-
+- As a new user, I would like to find out about Christmas events which I can attend happening in Ireland.
+- As a new user, I would like to find out where these events are happening.
+- As a new user, I would like to be able to redirect to these event's official webpage for more information if I choose to.
+- As a new user, I would like to use this website as a way to get me and my family in a festive mood in the lead up to Christmas.
+- As a new user, I would like to be able to send a letter to Santa for my children, and get a personalised response in return.
+- As the owner, I want my site to be easily navigable for users.
+- As the owner, I wish to provide a festive setting for people to build excitement in the run up to Christmas.
+- As the owner, I want to inform visitors of Christmas events happening in Ireland.
+- As the owner, I want my website to be friendly to users of all ages.
 
 ### Strategy
 
-
+The main goal of this website is to be an avenue for users of all ages to enable themselves to enjoy the festivities at Christmas time.
+This will be done by allowing users to discover where Christmas events happening around Ireland. The users will also be able to 
+discover more about these events from using external links navigating them to more specific content about these events. 
+Users with children will be able to send a message to Santa, and receive an email directed to their children. This website should be easy to navigate and
+be clear in it's purpose to any user.
 
 ### Scope
 
-
+I want to use a clear and warm design to fit in with the Christmas theme of this website.
+It is important to use a clear, intuitive interface to avoid delivering a poor user experience.
 
 ### Structure
 
-
+In each section I want to keep a common navbar and a common footer. In the header there will be a navbar with site links and a logo.
+In the footer section there will be copyright mark and social media icons which will act as buttons linking to their respective sites.
 
 ### Skeleton
 
