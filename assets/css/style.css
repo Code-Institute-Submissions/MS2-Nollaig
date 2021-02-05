@@ -27,8 +27,16 @@
     padding-right: 0;
 }
 
+.bg-image-2 {
+    background: url(../images/pexels-koolshooters-6194112.jpg) no-repeat bottom center fixed;
+    background-size: cover;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .bg-color {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -96,6 +104,11 @@ input[type="submit"] {
   background-color: #4460AA;
   color: #fff;
   border: none
+}
+
+form {
+    font-family: 'Lora', sans-serif;
+    color: white;
 }
 
 
