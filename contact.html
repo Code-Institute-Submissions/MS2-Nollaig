@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Mountains+of+Christmas:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Internal CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- EmailJS API -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_FnBsDWywAVUfURfHV5N38");
+        })();
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+        <!-- Navbar section, using Bootstrap navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <i class="fas fa-sleigh fa-2x logo"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Quiz</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Activities
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Write to Santa</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container-fluid bg-image">
+            <div class="row mt-5 py-5 g-4 bg-color">
+                <div class="col-12 d-flex justify-content-center">
+                    <h1 class="display-4 text-center heading mb-0">Christmas Markets</h1>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <p class="text-center blurb">Come see the seasonal festivities the island of Ireland has to offer.
+                        There's something for everybody: families, couples, and friends.
+                        Weather you're in to fine foods, arts and crafts, sleigh rides, and
+                        even seeing Santa himself. Come visit any of the marvellous markets
+                        and bathe in the festive glow. It will warm even the coldest of hearts.</p>
+                </div>
+            </div>
+            <div class="row bg-color px-3">
+                <div class="col-12 d-flex justify-content-center">
+                    <h1 class="display-4 text-center mb-0">Locations</h1>
+                </div>
+            </div>
+            <!-- Used EmailJS and the "Putting it all together" section of Interactive Frontend Development to help build this form -->
+            <div class="container bg-color">
+                <form onsubmit="return sendMail(this);">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="firstname">First Name</label>
+                                        <input type="text" name="firstname" class="form-control" id="firstname"
+                                            placeholder="Enter child's first name" required="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="age">Age</label>
+                                        <input type="text" name="age" class="form-control" id="age"
+                                            placeholder="Enter child's age" required="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="activity">Favourite Activity</label>
+                                        <input type="text" name="activity" class="form-control" id="activity"
+                                            placeholder="Enter child's favourite activity" required="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="gift">Gift</label>
+                                        <input type="text" name="gift" class="form-control" id="gift"
+                                            placeholder="Enter gift child want's for Christmas" required="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="hometown">Hometown</label>
+                                        <input type="text" name="hometown" class="form-control" id="hometown"
+                                            placeholder="Enter your nearest hometown" required="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" name="emailaddress" class="form-control" id="emailaddress"
+                                            placeholder="Enter email" required="">
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" id="button" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container-fluid bg-danger">
+            <!-- Copyright message -->
+            <p class="text-center color-white">&copy; 2021 All rights reserved</p>
+            <!-- Social links -->
+            <ul class="list-inline text-center mb-0 pb-3">
+                <li class="list-inline-item social">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener">
+                        <span class="sr-only">Opens in new window</span>
+                        <i class="fab fa-facebook-square fa-2x color-white" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item social">
+                    <a href="https://www.youtube.com/" target="_blank" rel="noreferrer noopener">
+                        <span class="sr-only">Opens in new window</span>
+                        <i class="fab fa-youtube fa-2x color-white" aria-hidden="true"></i>
+                        <span class="sr-only">Youtube</span>
+                    </a>
+                </li>
+                <li class="list-inline-item social">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
+                        <span class="sr-only">Opens in new window</span>
+                        <i class="fab fa-instagram-square fa-2x color-white" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+    <!-- EmailJS custom js -->
+    <script src="assets/js/contact.js"></script>
+
+</body>
+
+</html>
