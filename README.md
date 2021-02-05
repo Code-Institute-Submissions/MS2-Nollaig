@@ -58,11 +58,13 @@ In the footer section there will be copyright mark and social media icons which 
 
 ### Fonts
 
-
+For headings, I have used the "Mountains of Christmas" font. I think it suits a Christmas themed website and is a very festive themed font.
+For any other blocks of text, I have used the "Lora" font, which I also think arries a festive spirit, but is more practical for blocks of more descriptive text.
 
 ### Icons
 
 I used the hamburger icon for my menu because it is widely recognised and used.
+In the footer I used standard icons for copyright, Facebook, Youtube and Instagram. All icons used in this project were sourced from Font Awesome.
 
 
 ## Features
@@ -70,6 +72,9 @@ I used the hamburger icon for my menu because it is widely recognised and used.
 ### Existing Features
 
 - Navbar - allows the user to navigate the site using the listed buttons. The company name/logo also acts as a home button.
+- Home - There is a short summary with preview images of Christmas Markets located around Ireland.
+- Embedded Map - On the bottom of the home page, the embedded map contains clickable markers which zoom in and tell you which market it represents when clicked.
+- Write to Santa - On this page you can fill out your child's details and receive a personalised reply via email.
 
 
 ### Features to be Implemented
