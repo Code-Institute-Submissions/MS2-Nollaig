@@ -1,16 +1,16 @@
 /*------------------------------ Navbar */
 .logo {
-    color: white;
+    color: whitesmoke;
 }
 
 .nav-link {
     font-family: 'Mountains of Christmas';
     font-size: x-large;
-    color: white;
+    color: whitesmoke;
 }
 
 .nav-link:hover {
-    color: white;
+    color: whitesmoke;
     font-size: xx-large;
 }
 
@@ -39,13 +39,13 @@
 /*----- Hero Content */
 .heading {
     font-family: 'Mountains of Christmas', sans-serif;
-    color: white;
+    color: whitesmoke;
     border-bottom: 2px solid darkgoldenrod;
 }
 
 .hero-text {
     font-family: 'Lora', sans-serif;
-    color: white;
+    color: whitesmoke;
     width: 33%;
     font-size: x-large;
 }
@@ -59,7 +59,7 @@
 /*----- Information */
 .card {
     background-color: transparent;
-    color: white;
+    color: whitesmoke;
     font-family: 'Lora', sans-serif;
 }
 
@@ -85,11 +85,11 @@
 /*----- EmailJS API */
 form {
     font-family: 'Lora', sans-serif;
-    color: white;
+    color: whitesmoke;
 }
 
 
 /*--------------------- Footer */
 .color-white {
-    color: white;
+    color: whitesmoke;
 }
