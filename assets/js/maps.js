@@ -1,5 +1,5 @@
 function initMap() {
-    var locations = [
+    let locations = [
         ['Belfast Continental Christmas Market', 54.596422950000004, -5.929466360965295, 4],
         ['Christmas Market Galway', 53.2744475, -9.049333276783623, 5],
         ['Wicklow Christmas Market', 52.98072844827882, -6.045849323272706, 3],
@@ -8,15 +8,15 @@ function initMap() {
         ['Waterford Winterval', 52.26023187747952, -7.10592806339264, 6]
     ];
 
-    var map = new google.maps.Map(document.getElementById('map'), {
+    let map = new google.maps.Map(document.getElementById('map'), {
         zoom: 6,
         center: new google.maps.LatLng(53.2734, -7.77832031),
         mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 
-    var infowindow = new google.maps.InfoWindow();
+    let infowindow = new google.maps.InfoWindow();
 
-    var marker, i;
+    let marker, i;
 
     for (i = 0; i < locations.length; i++) {
         marker = new google.maps.Marker({
