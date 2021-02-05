@@ -20,7 +20,7 @@
 
 /*--------------------- Section */
 .bg-image {
-    background: url(../images/pexels-lisa-fotios-730256.jpg) no-repeat bottom center fixed;
+    background: url(../images/home-bg.jpg) no-repeat bottom center fixed;
     background-size: cover;
     overflow: hidden;
     padding-left: 0;
@@ -28,7 +28,7 @@
 }
 
 .bg-image-2 {
-    background: url(../images/pexels-koolshooters-6194112.jpg) no-repeat bottom center fixed;
+    background: url(../images/contact-bg.jpg) no-repeat bottom center fixed;
     background-size: cover;
     overflow: hidden;
     padding-left: 0;
@@ -66,6 +66,10 @@ h1 {
 
 .card-title {
     text-decoration: underline;
+}
+
+.card-img, .card-img-top {
+    border: 1px solid darkgoldenrod;
 }
 
 /*--- Google Maps API */

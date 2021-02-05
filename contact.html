@@ -97,61 +97,63 @@
             </div>
             <!-- Used EmailJS and the "Putting it all together" section of Interactive Frontend Development to help build this form -->
             <div class="container-fluid bg-color">
-                <form onsubmit="return sendMail(this);">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group py-2">
-                                        <label for="firstname">First Name</label>
-                                        <input type="text" name="firstname" class="form-control" id="firstname"
-                                            placeholder="Enter child's first name" required="">
+                <div class="container">
+                    <form onsubmit="return sendMail(this);">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group py-2">
+                                            <label for="firstname">First Name</label>
+                                            <input type="text" name="firstname" class="form-control" id="firstname"
+                                                placeholder="Enter child's first name" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group py-2">
+                                            <label for="age">Age</label>
+                                            <input type="text" name="age" class="form-control" id="age"
+                                                placeholder="Enter child's age" required="">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group py-2">
-                                        <label for="age">Age</label>
-                                        <input type="text" name="age" class="form-control" id="age"
-                                            placeholder="Enter child's age" required="">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group py-2">
+                                            <label for="activity">Favourite Activity</label>
+                                            <input type="text" name="activity" class="form-control" id="activity"
+                                                placeholder="Enter child's favourite activity" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group py-2">
+                                            <label for="gift">Gift</label>
+                                            <input type="text" name="gift" class="form-control" id="gift"
+                                                placeholder="Enter gift child wants for Christmas" required="">
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="row pb-3">
+                                    <div class="col-sm-6">
+                                        <div class="form-group py-2">
+                                            <label for="hometown">Hometown</label>
+                                            <input type="text" name="hometown" class="form-control" id="hometown"
+                                                placeholder="Enter your nearest hometown" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group py-2">
+                                            <label for="email">Email</label>
+                                            <input type="email" name="emailaddress" class="form-control"
+                                                id="emailaddress" placeholder="Enter email" required="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" id="button" class="btn btn-primary mb-5">Submit</button>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group py-2">
-                                        <label for="activity">Favourite Activity</label>
-                                        <input type="text" name="activity" class="form-control" id="activity"
-                                            placeholder="Enter child's favourite activity" required="">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group py-2">
-                                        <label for="gift">Gift</label>
-                                        <input type="text" name="gift" class="form-control" id="gift"
-                                            placeholder="Enter gift child wants for Christmas" required="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row pb-3">
-                                <div class="col-sm-6">
-                                    <div class="form-group py-2">
-                                        <label for="hometown">Hometown</label>
-                                        <input type="text" name="hometown" class="form-control" id="hometown"
-                                            placeholder="Enter your nearest hometown" required="">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group py-2">
-                                        <label for="email">Email</label>
-                                        <input type="email" name="emailaddress" class="form-control" id="emailaddress"
-                                            placeholder="Enter email" required="">
-                                    </div>
-                                </div>
-                            </div>
-                            <button type="submit" id="button" class="btn btn-primary mb-5">Submit</button>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
 
