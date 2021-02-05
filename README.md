@@ -153,7 +153,7 @@ I used the hamburger icon for my menu because it is widely recognised and used.
 
    
 
-   4. #### Home
+   1. #### Home
 
    
 
