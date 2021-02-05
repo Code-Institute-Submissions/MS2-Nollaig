@@ -67,8 +67,14 @@
     text-decoration: underline;
 }
 
-.card-img, .card-img-top {
+.img-border {
     border: 1px solid darkgoldenrod;
+}
+
+@media screen and (max-width: 992px) {
+    .img-size {
+    width: 75%;
+}
 }
 
 /*----- Google Maps API */
