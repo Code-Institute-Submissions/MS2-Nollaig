@@ -94,7 +94,7 @@ Upon inputting each field correctly, a popup displays informing the user that th
 ## Code Validation
 
 ### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-Validated my CSS by direct input in to the CSS validator and no erors were found.
+Validated my CSS by direct input in to the CSS validator and no errors were found.
 
 ### [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
 - Validated index.html by direct input - one warning: 

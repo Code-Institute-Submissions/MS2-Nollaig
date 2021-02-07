@@ -160,14 +160,37 @@ To run MS2 locally the following steps must be taken:
 5. Open up the terminal in your IDE.
 6. Input git clone followed by the URL you copied into the terminal.
 
-\$ git clone https://github.com/M-E-C-20/MS2.git
+\$ git clone https://github.com/M-E-C-20/MS2-Nollaig.git
 
 ## Credits
 
 ### Media
 
-
+- The photos used in this site were obtained from [Pexels](https://www.pexels.com/). In particular the content creators:
+    - [Johnathan Meyer](https://www.pexels.com/@jmeyer1220) - Image was used in the home page.
+    - [Maria Orlova](https://www.pexels.com/@orlovamaria) - Image was used on the Write to Santa page.
+    - [Brigitte Tohm](https://www.pexels.com/@brigitte-tohm-36757) - Image was used to create logo.
+    - [Cottonbro](https://www.pexels.com/@cottonbro) - Image was used in the home page.
+    - [Elly Fairytale](https://www.pexels.com/@elly-fairytale) - Image was used in the home page.
+    - [Energepic](https://www.pexels.com/@energepic-com-27411) - Image was used in the home page.
+    - [Humphrey Muleba](https://www.pexels.com/@goodcitizen) - Image was used in the home page.
+    - [Lisa Fotios](https://www.pexels.com/@fotios-photos) - Image was used for the background on the home page.
+    - [Mark Neal](https://www.pexels.com/@mark-neal-201020) - Image was used in the home page.
+    - [KoolShooters](https://www.pexels.com/@kool-shooters) - Image was used as background on contact.html
 
 ### Acknowledgements
 
 - I used the [Code Institute](https://github.com/Code-Institute-Solutions/readme-template) README template as a base for my own.
+- I took great inspiration from these particular websites, I used a lot of information and design choices from them and adapted them to suit my own needs:
+    - [Ireland.com](https://www.ireland.com/en-gb/events/fairs-shows-and-markets/articles/christmas-markets-in-ireland/)
+    - [Elf on the Shelf](https://elfontheshelf.co.uk/blog/kids-christmas-quiz/)
+    - [cork Glow](https://www.corkcity.ie/en/re-imagine-glow/)
+    - [Limerick Milk Market](https://www.milkmarketlimerick.ie/)
+    - [Winterval](http://www.winterval.ie/)
+    - [Belfast Continental Christmas](https://www.facebook.com/BelfastXmasMark/)
+    - [Galway Christmas Market](https://www.christmasmarketgalway.com/)
+    - [Wicklow Christmas Market](https://www.wicklowchristmasmarket.com/)
+- I would also like to thank my mentor Rohit Sharma for their valuable insight. His advice was invaluable both in a technical sense and a practical sense.
+He advised me on what to focus on in my project, which was invaluable when I was short on time, and stopped me from biting off more than I could handle.
+- I would like to thank the Slack community as a general source of information and for people willing to lend a hand.
+- I received inspiration for this project from my partner and children, when I was struggling to come up with an idea, they gave me one.
