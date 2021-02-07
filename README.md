@@ -139,7 +139,7 @@ Testing documentation can be found at [TESTING.md](TESTING.md)
 ## Deployment
 
 This project was developed in Gitpod, controlled using Git, and hosted using GitHub. The live webpage is hosted by GitHub Pages.
-To deploy MS2 using GitHub pages the following steps were taken:
+To deploy MS2-Nollaig using GitHub pages the following steps were taken:
 
 1. Open **GitHub** in the browser.
 2. Sign in using my username and password.
@@ -149,9 +149,9 @@ To deploy MS2 using GitHub pages the following steps were taken:
 6. Scroll down to **GitHub Pages**.
 7. Select **Master Branch** from the Source dropdown menu.
 8. Save my selection.
-9. MS2 is now live on GitHub Pages.
+9. MS2-Nollaig is now live on GitHub Pages.
 
-To run MS2 locally the following steps must be taken:
+To run MS2-Nollaig locally the following steps must be taken:
 
 1. Navigate back to **M-E-C-20/MS2-Nollaig**.
 2. Click on the **Code** button.
