@@ -13,6 +13,7 @@ function sendMail(contactForm) {
             function (response) {
                 // Activates modal popup on successful submission
                 $('#myModal').modal('show');
+                clear();
                 // Closes the modal
                 $(".btn").click(function () {
                     $("#myModal").modal('hide');
@@ -23,4 +24,14 @@ function sendMail(contactForm) {
             }
         );
     return false; // To block from loading a new page
+}
+
+// function to clear input fields
+function clear() {
+        document.getElementById("firstname").value = "",
+        document.getElementById("age").value = "",
+        document.getElementById("activity").value = "",
+        document.getElementById("gift").value = "",
+        document.getElementById("hometown").value = "",
+        document.getElementById("emailaddress").value = "";
 }
