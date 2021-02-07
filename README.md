@@ -1,6 +1,6 @@
 # MS2
 
-![Responsive](https://github.com/M-E-C-20/)
+![Responsive](screenshots/responsive.jpg)
 
 This is my website which will be used to advertise a small local garage.
 It should feature the services offered and a price guide, an about page, a gallery and a contact page.
@@ -10,7 +10,7 @@ To do this I will need to make a comprehensive guide of services are available a
 To bolster this confidence, I will include an about page and a gallery.
 On the gallery page I will include some images of the garage and some helpful tips for self maintenance for the customer.
 
-[Live Website](https://m-e-c-20.github.io/)
+[Live Website](https://m-e-c-20.github.io/MS2/)
 
 ## UX
 
