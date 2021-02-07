@@ -103,6 +103,19 @@ Removed the type attribute from line 251 in index.html and re-ran the validator 
 - Validated contact.html by direct input - one error:
     - The value of the for attribute of the label element must be the ID of a non-hidden form control. Changed for attribute to emailaddress and re-ran - no error.
 
+### Chrome Devtools
+- Home page:
+    1. Desktop
+        >  ![Desktop](audits/home-desktop.jpg)
+    2. Mobile
+        > ![Mobile](audits/home-mobile.jpg)
+
+- Write to Santa page:
+    1. Desktop
+        > ![Desktop](audits/contact-desktop.jpg)
+    2. Mobile
+        > ![Mobile](audits/contact-mobile.jpg)
+
 ## Fixed Bugs
 - In the form in contact.html, the age input area was set to type="text", which meant that a user could input letters. 
 This could create issues with the auto reply email, as it requires accurate and valid data to be convincing to the user.
