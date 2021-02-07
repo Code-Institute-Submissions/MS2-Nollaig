@@ -32,7 +32,7 @@ function initMap() {
                 infowindow.open(map, marker);
                 map.setZoom(10);
                 map.setCenter(marker.getPosition(locations[1][2]));
-            }
+            };
         })(marker, i, locations));
     }
 }

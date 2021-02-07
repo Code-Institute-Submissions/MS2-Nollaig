@@ -135,61 +135,6 @@ In the footer I used standard icons for copyright, Facebook, Youtube and Instagr
 ## Testing
 
 Testing can be found at [TESTING](TESTING.md)
-   
-
-4. ### [Chrome DevTools:](https://developers.google.com/web/tools/chrome-devtools)
-
-   
-
-     [Link to pdf of results](https://github.com/M-E-C-20/)
-
-5. ### [Color Contrast Accessibility Validator](https://color.a11y.com/?wc3)
-
-   
-
-6. ### [Web Accessibility](https://www.webaccessibility.com/results/?url=https%3A%2F%2Fm-e-c-20.github.io%2FPB-Motors%2Fgallery.html)
-
-   
-
-7. ### Website Functionality
-
-   
-
-   1. #### Home
-
-   
-
-   Home page screenshots:
-
-   - [desktop](https://github.com/M-E-C-20/)
-   - [mobile](https://github.com/M-E-C-20/)
-
-   2. #### Quiz
-
-   
-
-   Quiz page screenshots:
-
-   - [desktop](https://github.com/M-E-C-20/)
-   - [mobile](https://github.com/M-E-C-20/)
-
-   3. #### Activities
-
-   
-
-   Activities page screenshots:
-
-   - [desktop](https://github.com/M-E-C-20/)
-   - [mobile](https://github.com/M-E-C-20/)
-
-   4. #### Letter to Santa
-
-   
-
-   Letter to Santa page screenshots:
-
-   - [desktop](https://github.com/M-E-C-20/)
-   - [mobile](https://github.com/M-E-C-20/)
 
 ## Deployment
 

@@ -103,6 +103,13 @@ Removed the type attribute from line 251 in index.html and re-ran the validator 
 - Validated contact.html by direct input - one error:
     - The value of the for attribute of the label element must be the ID of a non-hidden form control. Changed for attribute to emailaddress and re-ran - no error.
 
+### JSHint
+Ran contact.js through JSHint, and found no major errors.
+![contact.js](audits/contact-js.jpg)
+
+Ran maps.js through JSHint, and found no major errors.
+![maps.js](audits/maps-js.jpg)
+
 ### Chrome Devtools
 - Home page:
     1. Desktop
