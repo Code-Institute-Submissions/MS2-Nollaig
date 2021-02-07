@@ -184,7 +184,7 @@ To run MS2 locally the following steps must be taken:
 - I took great inspiration from these particular websites, I used a lot of information and design choices from them and adapted them to suit my own needs:
     - [Ireland.com](https://www.ireland.com/en-gb/events/fairs-shows-and-markets/articles/christmas-markets-in-ireland/)
     - [Elf on the Shelf](https://elfontheshelf.co.uk/blog/kids-christmas-quiz/)
-    - [cork Glow](https://www.corkcity.ie/en/re-imagine-glow/)
+    - [Cork Glow](https://www.corkcity.ie/en/re-imagine-glow/)
     - [Limerick Milk Market](https://www.milkmarketlimerick.ie/)
     - [Winterval](http://www.winterval.ie/)
     - [Belfast Continental Christmas](https://www.facebook.com/BelfastXmasMark/)
