@@ -1,4 +1,4 @@
-# MS2 - Nollaig
+# MS2-Nollaig
 
 ![Responsive](screenshots/responsive.jpg)
 
@@ -47,8 +47,8 @@ In the footer section there will be copyright mark and social media icons which 
 
 ### Skeleton
 
-- [Home Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-home.pdf)
-- [Write to Santa Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-santa.pdf)
+- [Home Page Wireframes](https://github.com/M-E-C-20/MS2-Nollaig/blob/master/wireframes/MS2-home.pdf)
+- [Write to Santa Page Wireframes](https://github.com/M-E-C-20/MS2-Nollaig/blob/master/wireframes/MS2-santa.pdf)
 
 ### Surface
 
@@ -88,9 +88,9 @@ In the footer I used standard icons for copyright, Facebook, Youtube and Instagr
 
 ### Features to be Implemented
 - Quiz - I would like to add a short, and simple Christmas themed quiz in the future.
-    - [Quiz Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-quiz.pdf)
+    - [Quiz Page Wireframes](https://github.com/M-E-C-20/MS2-Nollaig/blob/master/wireframes/MS2-quiz.pdf)
 - I would also like to add a page which includes Christmas activities, such as some arts and crafts with explanations on how to make your own.
-    - [Activities Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-activities.pdf)
+    - [Activities Page Wireframes](https://github.com/M-E-C-20/MS2-Nollaig/blob/master/wireframes/MS2-activities.pdf)
 - I would like to improve the fuctionality of the website by joining the information cards to the Google Maps API to create a more seamless and convenient transition between sections.
 
 ## Technologies Used
@@ -112,7 +112,7 @@ In the footer I used standard icons for copyright, Facebook, Youtube and Instagr
 - [Font Awesome](https://fontawesome.com/)
   - The project uses Font Awesome to add to my navigation buttons.
 - [Pexels](https://www.pexels.com/)
-  - Many of the photos used in this project came from this website.
+  - All of the photos used in this project came from this website.
 - [Canva](https://www.canva.com/en_gb/)
   - I used Canva to design the logo for this website.
 - [CompressJPEG](https://compressjpeg.com/)
@@ -134,7 +134,7 @@ In the footer I used standard icons for copyright, Facebook, Youtube and Instagr
 
 ## Testing
 
-Testing can be found at [TESTING](TESTING.md)
+Testing documentation can be found at [TESTING.md](TESTING.md)
 
 ## Deployment
 
@@ -144,7 +144,7 @@ To deploy MS2 using GitHub pages the following steps were taken:
 1. Open **GitHub** in the browser.
 2. Sign in using my username and password.
 3. Click on **my repositories**.
-4. Select **MS2**.
+4. Select **MS2-Nollaig**.
 5. Click on **settings**.
 6. Scroll down to **GitHub Pages**.
 7. Select **Master Branch** from the Source dropdown menu.
@@ -153,7 +153,7 @@ To deploy MS2 using GitHub pages the following steps were taken:
 
 To run MS2 locally the following steps must be taken:
 
-1. Navigate back to **M-E-C-20/MS2**.
+1. Navigate back to **M-E-C-20/MS2-Nollaig**.
 2. Click on the **Code** button.
 3. Make sure **HTTPS** is selected.
 4. Copy the URL supplied.

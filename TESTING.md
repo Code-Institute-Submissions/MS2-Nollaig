@@ -1,8 +1,8 @@
-# MS2 - Testing Documentation
+# Testing Documentation: MS2-Nollaig
 
 The main README documentation can be found at [README.md](README.md)
 
-[Live Website](https://m-e-c-20.github.io/MS2/)
+[Live Website](https://m-e-c-20.github.io/MS2-Nollaig/)
 
 ## Supported Screens and Browsers
 
