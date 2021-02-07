@@ -2,13 +2,14 @@
 
 ![Responsive](screenshots/responsive.jpg)
 
-This is my website which will be used to advertise a small local garage.
-It should feature the services offered and a price guide, an about page, a gallery and a contact page.
-the primary goal is to intice customers to make contact with the garage via the contact page.
+This is my website which will be used to display Christmas activites for people of all ages.
+It should feature a home page with some general information on Christmas markets in Ireland, and a write to Santa section.
+The primary goal is to enable people to discover interesting and fun ways to enter the festive season.
 
-To do this I will need to make a comprehensive guide of services are available and use the price guide to give the customer confidence in what they are spending they're money on.
-To bolster this confidence, I will include an about page and a gallery.
-On the gallery page I will include some images of the garage and some helpful tips for self maintenance for the customer.
+To do this the website will feature general information on various Christmas markets located in Ireland, and a form which can be submitted that generates a personalised email from Santa in return.
+I will use festive imagery and coloring to compliment this theme.
+They're will be some snapshots included with the snippets on the Christmas markets along with a link to each ones website.
+The background images should be relevant to the purpose of the page they're on.
 
 [Live Website](https://m-e-c-20.github.io/MS2/)
 
@@ -47,19 +48,17 @@ In the footer section there will be copyright mark and social media icons which 
 ### Skeleton
 
 - [Home Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-home.pdf)
-- [Quiz Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-quiz.pdf)
-- [Activities Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-activities.pdf)
 - [Write to Santa Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-santa.pdf)
 
 ### Surface
 
-#### Colours
+### Colours
 
 
 ### Fonts
 
 For headings, I have used the "Mountains of Christmas" font. I think it suits a Christmas themed website and is a very festive themed font.
-For any other blocks of text, I have used the "Lora" font, which I also think arries a festive spirit, but is more practical for blocks of more descriptive text.
+For any other blocks of text, I have used the "Lora" font, which I also think carries a festive spirit, but is more practical for blocks of more descriptive text.
 
 ### Icons
 
@@ -78,8 +77,10 @@ In the footer I used standard icons for copyright, Facebook, Youtube and Instagr
 
 
 ### Features to be Implemented
-
-
+- Quiz - I would like to add a short, and simple Christmas themed quiz in the future.
+- [Quiz Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-quiz.pdf)
+- I would also like to add a page which includes Christmas activities, such as some arts and crafts with explanations on how to make your own.
+- [Activities Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-activities.pdf)
 
 ## Technologies Used
 
@@ -101,16 +102,22 @@ In the footer I used standard icons for copyright, Facebook, Youtube and Instagr
   - The project uses Font Awesome to add to my navigation buttons.
 - [Pexels](https://www.pexels.com/)
   - Many of the photos used in this project came from this website.
+- [CompressJPEG](https://compressjpeg.com/)
+  - The project uses CompressJPEG to resize the images used on the site.
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+  - The project uses Chrome DevTools to analyse performance, accessibility, and best practices.
+- [EmailJS](https://www.emailjs.com/)
+    - The project uses EmailJS API to create an automatic response email which is updated based on your responses.
+- [Google Maps Platform](https://developers.google.com/maps/documentation/?_ga=2.183907430.1952510718.1611081123-1204686115.1606483340)
+    - The project uses Google Maps Platform API to embed a map with markers to indicate the geographic position of Christmas markets.
 - [CSS Lint](http://csslint.net/)
   - The project uses CSS Lint as an extra testing step after initially manual checks.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
   - The project uses this to test CSS by direct input.
 - [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
   - The project uses this to pinpoint errors in HTML markup.
-- [ResizeImage.net](https://resizeimage.net/)
-  - The project uses ResizeImage.net to resize the images used on the site.
-- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
-  - The project uses Chrome DevTools to analyse performance, accessibility, and best practices.
+- [JSHint](https://jshint.com/)
+    - The project uses JSHint to detect errors and potential problems in the JavaScript code.
 
 ## Testing
 
