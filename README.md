@@ -194,3 +194,4 @@ To run MS2 locally the following steps must be taken:
 He advised me on what to focus on in my project, which was invaluable when I was short on time, and stopped me from biting off more than I could handle.
 - I would like to thank the Slack community as a general source of information and for people willing to lend a hand.
 - I received inspiration for this project from my partner and children, when I was struggling to come up with an idea, they gave me one.
+I would like to thank them especially for tolerating me during this stressful time.
