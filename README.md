@@ -52,17 +52,26 @@ In the footer section there will be copyright mark and social media icons which 
 
 ### Surface
 
-### Colours
+#### Colours
 
+For the navbar and footer, I decided to use the Bootstrap bg-danger color class (#DC3545). 
+I used this as red is a color highly associated with Christmas, and I found this particular shade suitable because it has a soft and warm tone.
+For the text I used a shade an off white color called whitesmoke (#F5F5F5). The slightly greyer shading lends to a softer contrast and less strain while reading.
+It has a very similar color as snow, which adds to the theme of the website.
+Finally, I used darkgoldenrod (#B8860B) color as the border for the images, and underlining the subheadings.
+Gold is another color associated with Christmas, particularly in decoration, so I thought it suitable for decorating text, and provided a nice contrast with the shaded background.
 
-### Fonts
+![#DC3545](assets/images/red.jpg) ![#F5F5F5](assets/images/whitesmoke.jpg) ![#B8860B](assets/images/darkgoldenrod.jpg)
+
+#### Fonts
 
 For headings, I have used the "Mountains of Christmas" font. I think it suits a Christmas themed website and is a very festive themed font.
 For any other blocks of text, I have used the "Lora" font, which I also think carries a festive spirit, but is more practical for blocks of more descriptive text.
 
-### Icons
+#### Icons
 
 I used the hamburger icon for my menu because it is widely recognised and used.
+I used the external link icon to indicate the presence of a clickable link in the information section of each market as it is an easily recognisable icon.
 In the footer I used standard icons for copyright, Facebook, Youtube and Instagram. All icons used in this project were sourced from Font Awesome.
 
 
@@ -79,9 +88,9 @@ In the footer I used standard icons for copyright, Facebook, Youtube and Instagr
 
 ### Features to be Implemented
 - Quiz - I would like to add a short, and simple Christmas themed quiz in the future.
-- [Quiz Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-quiz.pdf)
+    - [Quiz Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-quiz.pdf)
 - I would also like to add a page which includes Christmas activities, such as some arts and crafts with explanations on how to make your own.
-- [Activities Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-activities.pdf)
+    - [Activities Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-activities.pdf)
 - I would like to improve the fuctionality of the website by joining the information cards to the Google Maps API to create a more seamless and convenient transition between sections.
 
 ## Technologies Used
@@ -104,6 +113,8 @@ In the footer I used standard icons for copyright, Facebook, Youtube and Instagr
   - The project uses Font Awesome to add to my navigation buttons.
 - [Pexels](https://www.pexels.com/)
   - Many of the photos used in this project came from this website.
+- [Canva](https://www.canva.com/en_gb/)
+  - I used Canva to design the logo for this website.
 - [CompressJPEG](https://compressjpeg.com/)
   - The project uses CompressJPEG to resize the images used on the site.
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
@@ -208,13 +219,26 @@ In the footer I used standard icons for copyright, Facebook, Youtube and Instagr
 This project was developed in Gitpod, controlled using Git, and hosted using GitHub. The live webpage is hosted by GitHub Pages.
 To deploy MS2 using GitHub pages the following steps were taken:
 
-
+1. Open **GitHub** in the browser.
+2. Sign in using my username and password.
+3. Click on **my repositories**.
+4. Select **MS2**.
+5. Click on **settings**.
+6. Scroll down to **GitHub Pages**.
+7. Select **Master Branch** from the Source dropdown menu.
+8. Save my selection.
+9. MS2 is now live on GitHub Pages.
 
 To run MS2 locally the following steps must be taken:
 
+1. Navigate back to **M-E-C-20/MS2**.
+2. Click on the **Code** button.
+3. Make sure **HTTPS** is selected.
+4. Copy the URL supplied.
+5. Open up the terminal in your IDE.
+6. Input git clone followed by the URL you copied into the terminal.
 
-
-\$ git clone 
+\$ git clone https://github.com/M-E-C-20/MS2.git
 
 ## Credits
 
