@@ -6,12 +6,12 @@ The main README documentation can be found at [README.md](README.md)
 
 ## Supported Screens and Browsers
 
-> Unless otherwise stated, all desktop test cases have been carried out across Google Chrome, Firefox, and Microsoft Edge.
+ Unless otherwise stated, all desktop test cases have been carried out across Google Chrome, Firefox, and Microsoft Edge.
 All mobile and tablet platform based testing has been performed using Chrome Devtools virtual devices.
 The devices I have chosen and their dimensions are:
-> 1. Galaxy Fold - 280 x 653
-> 2. Moto G4 - 360 x 640
-> 3. iPad - 768 x 1024
+ 1. Galaxy Fold - 280 x 653
+ 2. Moto G4 - 360 x 640
+ 3. iPad - 768 x 1024
 
 ## Test Cases
 
@@ -98,18 +98,18 @@ Validated my CSS by direct input in to the CSS validator and no erors were found
 
 ### [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
 - Validated index.html by direct input - one warning: 
-   >  The type attribute is unnecessary for JavaScript resources.
+   -  The type attribute is unnecessary for JavaScript resources.
 Removed the type attribute from line 251 in index.html and re-ran the validator - no errors or warnings to show.
 - Validated contact.html by direct input - one error:
-    > The value of the for attribute of the label element must be the ID of a non-hidden form control. Changed for attribute to emailaddress and re-ran - no error.
+    - The value of the for attribute of the label element must be the ID of a non-hidden form control. Changed for attribute to emailaddress and re-ran - no error.
 
 ## Fixed Bugs
 - In the form in contact.html, the age input area was set to type="text", which meant that a user could input letters. 
 This could create issues with the auto reply email, as it requires accurate and valid data to be convincing to the user.
-    >- Fix: Changed the type to number, which fixed the issue.
+    - Fix: Changed the type to number, which fixed the issue.
 - In the form in contact.html, the age input area had no minimum value, which meant that negative age values could be selected.
-    >- Fix: Add min="0" to age input field.
+    - Fix: Add min="0" to age input field.
 - In contact.html, after submitting the form, the only confirmation that the form was sent was a browser alert.
-    >- Fix: Add a popup modal that appears when the form has been submitted successfully.
+    - Fix: Add a popup modal that appears when the form has been submitted successfully.
 - In contact.html, after closing the modal popup, the form details remained in the input fields.
-    >- Fix: Add clear() function so that the form fields cleared after successful submission.
+    - Fix: Add clear() function so that the form fields cleared after successful submission.

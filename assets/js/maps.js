@@ -18,7 +18,7 @@ function initMap() {
 
     const infowindow = new google.maps.InfoWindow();
 
-    const marker, i;
+    let marker, i;
     // determines the locations of the markers
     for (i = 0; i < locations.length; i++) {
         marker = new google.maps.Marker({
