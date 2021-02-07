@@ -71,9 +71,10 @@ In the footer I used standard icons for copyright, Facebook, Youtube and Instagr
 ### Existing Features
 
 - Navbar - allows the user to navigate the site using the listed buttons. The company name/logo also acts as a home button.
-- Home - There is a short summary with preview images of Christmas Markets located around Ireland.
+- Home - There is a short summary with preview images of Christmas Markets located around Ireland. Included will also be links to the official web pages of these events.
 - Embedded Map - On the bottom of the home page, the embedded map contains clickable markers which zoom in and tell you which market it represents when clicked.
 - Write to Santa - On this page you can fill out your child's details and receive a personalised reply via email.
+- Footer - The footer contains social media links which should open in a new browser window.
 
 
 ### Features to be Implemented
@@ -81,6 +82,7 @@ In the footer I used standard icons for copyright, Facebook, Youtube and Instagr
 - [Quiz Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-quiz.pdf)
 - I would also like to add a page which includes Christmas activities, such as some arts and crafts with explanations on how to make your own.
 - [Activities Page Wireframes](https://github.com/M-E-C-20/MS2/blob/master/wireframes/MS2-activities.pdf)
+- I would like to improve the fuctionality of the website by joining the information cards to the Google Maps API to create a more seamless and convenient transition between sections.
 
 ## Technologies Used
 
