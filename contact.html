@@ -23,6 +23,11 @@
     <!-- Internal CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"
+        integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ=="
+        crossorigin="anonymous"></script>
+
     <!-- EmailJS API -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
@@ -109,7 +114,7 @@
                                     <div class="col-sm-6">
                                         <div class="form-group py-2">
                                             <label for="age">Age</label>
-                                            <input type="number" name="age" class="form-control" id="age"
+                                            <input type="number" name="age" class="form-control" id="age" min="0"
                                                 placeholder="Enter child's age" required="">
                                         </div>
                                     </div>
@@ -147,6 +152,22 @@
                                     </div>
                                 </div>
                                 <button type="submit" id="button" class="btn btn-primary mb-5">Submit</button>
+                                <div id="myModal" class="modal fade" tabindex="-1">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content bg-dark">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Ho! Ho! Ho!</h5>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Santa is sending you his reply now!</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary"
+                                                    onclick="resetForm();">Close Modal</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </form>

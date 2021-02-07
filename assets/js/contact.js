@@ -11,7 +11,12 @@ function sendMail(contactForm) {
         })
         .then(
             function (response) {
-                alert("Ho! Ho! Ho!, Santa is sending you his reply now!", response);
+                // Activates modal popup on successful submission
+                $('#myModal').modal('show');
+                // Closes the modal
+                $(".btn").click(function () {
+                    $("#myModal").modal('hide');
+                });
             },
             function (error) {
                 alert("FAILED, try again later", error);
