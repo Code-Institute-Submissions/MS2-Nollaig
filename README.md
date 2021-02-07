@@ -134,30 +134,7 @@ In the footer I used standard icons for copyright, Facebook, Youtube and Instagr
 
 ## Testing
 
-1. ### Fixed Issues:
-
-   
-
-2. ### CSS:
-
-
-
-3. ### HTML:
-
-   1. #### Home:
-
-   
-
-   2. #### About:
-
-   
-
-   3. #### Gallery:
-
-   
-
-   4. #### Contact:
-
+Testing can be found at [TESTING](TESTING.md)
    
 
 4. ### [Chrome DevTools:](https://developers.google.com/web/tools/chrome-devtools)
